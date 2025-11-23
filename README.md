@@ -1,4 +1,4 @@
-# <img src="banner.png" width="100%" />
+
 
 # 💸 Finverse – AI-Powered Personal Finance Copilot
 
@@ -12,18 +12,7 @@ Built using a modern stack:
 **React + Vite + Tailwind + Recharts + Framer Motion (frontend)**  
 **Node.js + Express + MongoDB + JWT + Google Gemini API (backend)**
 
----
 
-# 🖼️ Branding
-
-### 🔷 Finverse Logo
-<img src="logo.png" width="180"/>
-
-### 🎥 Live Demo GIF  
-*(Replace with your uploaded GIF)*  
-<img src="demo.gif" width="100%"/>
-
----
 
 # 🚀 Features
 
