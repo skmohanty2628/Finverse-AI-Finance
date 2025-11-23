@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 FinVerse Custom Styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+
+
+/* Smooth chatbot appearance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation when chatbot mounts */
+.fixed.bottom-4.right-4 {
+  animation: fadeInUp 0.3s ease-out;
+}
+
+/* Optional: scrollbar styling for chatbot message area */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #4f46e5, #9333ea);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1533;
+}
